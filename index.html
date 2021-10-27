@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema Inventario</title>
+</head>
+<body>
+
+    <div class="container-center">
+        <form action="" class="inputs">
+            <label for="txtCode">
+                <input type="text" id="txtCode" placeholder="Código del producto">
+            </label>
+            <label for="txtName">
+                <input type="text" id="txtName" placeholder="Nombre del producto">
+            </label>
+            <label for="txtQuantity">
+                <input type="text" id="txtQuantity" placeholder="Cantidad de producto">
+            </label>
+            <label for="txtCost">
+                <input type="text" id="txtCost" placeholder="Costo del producto">
+            </label>
+        </form>
+        <input type="button" id="btnAdd" value="Añadir">
+        <input type="button" id="btnListAll" value="Listar">
+        <input type="button" id="btnListInvert" value="Listar Inverso">
+        <form action="">
+            <label for="txtCodeSearch">
+                <input type="text" id="txtCodeSearch" placeholder="Código del producto">
+            </label>
+        </form>
+        <input type="button" id="btnSearch" value="Buscar">
+        <input type="button" id="btnDelete" value="Eliminar">
+        <div id="details">
+        <div id="list">
+    </div>
+
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

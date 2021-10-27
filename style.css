@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(158, 158, 158);
+}
+
+.container-center {
+    width: 70vw;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    height: 100vh;
+    overflow: auto;
+}
+
+
+input {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
